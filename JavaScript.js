@@ -74,7 +74,7 @@ if (currencySelect.value == "bitcoin") {
   currencyImage.src = "./assets/bitcoin.png"
 }
 
-convertValues()
+  convertValues ()
 }
 
 currencySelect.addEventListener("change", changeCurrency )
